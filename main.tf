@@ -8,14 +8,14 @@ locals {
 
   #fills the variable counts with the two possible answers for count  
   counts = {
-    "dev" = 1
-    "prod"  = 2
+    "dev"  = 1
+    "prod" = 2
   }
 
   #fills the variable locations with the two possible answers for count  
   locations = {
-    "dev" = "uksouth"
-    "prod"  = "westeurope"
+    "dev"  = "uksouth"
+    "prod" = "westeurope"
   }
 
   #looks up the relevant values and fills the count and location variable depending on the value of the variable env  
